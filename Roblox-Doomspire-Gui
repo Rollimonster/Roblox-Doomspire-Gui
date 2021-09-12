@@ -1,0 +1,583 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Tptomiddle = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local tptogreen = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local tptoblue = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TpToYellow = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local infjump = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Esp = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Cham = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local tptored = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Edgebadge = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Killall = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Clicktotp = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Norocketcoolddown = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Speedup = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame.Position = UDim2.new(0.0301481858, 0, 0, 0)
+Frame.Size = UDim2.new(0, 132, 0, 258)
+
+UICorner.Parent = Frame
+
+Tptomiddle.Name = "Tp to middle"
+Tptomiddle.Parent = ScreenGui
+Tptomiddle.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Tptomiddle.Position = UDim2.new(0.0362800173, 0, 0.00759493653, 0)
+Tptomiddle.Size = UDim2.new(0, 109, 0, 42)
+Tptomiddle.Font = Enum.Font.SourceSans
+Tptomiddle.Text = "tp to middle"
+Tptomiddle.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tptomiddle.TextSize = 14.000
+
+UICorner_2.Parent = Tptomiddle
+
+tptogreen.Name = "tp to green"
+tptogreen.Parent = ScreenGui
+tptogreen.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+tptogreen.Position = UDim2.new(0.0362800173, 0, 0.12995781, 0)
+tptogreen.Size = UDim2.new(0, 109, 0, 42)
+tptogreen.Font = Enum.Font.SourceSans
+tptogreen.Text = "tp to green"
+tptogreen.TextColor3 = Color3.fromRGB(0, 0, 0)
+tptogreen.TextSize = 14.000
+
+UICorner_3.Parent = tptogreen
+
+tptoblue.Name = "tp to blue"
+tptoblue.Parent = ScreenGui
+tptoblue.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+tptoblue.Position = UDim2.new(0.0362800173, 0, 0.172995776, 0)
+tptoblue.Size = UDim2.new(0, 109, 0, 42)
+tptoblue.Font = Enum.Font.SourceSans
+tptoblue.Text = "tp to blue"
+tptoblue.TextColor3 = Color3.fromRGB(0, 0, 0)
+tptoblue.TextSize = 14.000
+
+UICorner_4.Parent = tptoblue
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.145120084, 0, 0.0548523217, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "*Press R*"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+TpToYellow.Name = "Tp To Yellow"
+TpToYellow.Parent = ScreenGui
+TpToYellow.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TpToYellow.Position = UDim2.new(0.0362800173, 0, 0.0894514769, 0)
+TpToYellow.Size = UDim2.new(0, 109, 0, 42)
+TpToYellow.Font = Enum.Font.SourceSans
+TpToYellow.Text = "tp to yellow"
+TpToYellow.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpToYellow.TextSize = 14.000
+
+UICorner_5.Parent = TpToYellow
+
+Frame_2.Parent = ScreenGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame_2.Position = UDim2.new(0.163515598, 0, 4.65661287e-10, 0)
+Frame_2.Size = UDim2.new(0, 132, 0, 258)
+
+UICorner_6.Parent = Frame_2
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Frame_2
+Noclip.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Noclip.Position = UDim2.new(0.0861360058, 0, 0.0338828415, 0)
+Noclip.Size = UDim2.new(0, 109, 0, 42)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextSize = 14.000
+
+UICorner_7.Parent = Noclip
+
+infjump.Name = "inf jump"
+infjump.Parent = Noclip
+infjump.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+infjump.Position = UDim2.new(-0.0131828729, 0, 1.1485008, 0)
+infjump.Size = UDim2.new(0, 109, 0, 42)
+infjump.Font = Enum.Font.SourceSans
+infjump.Text = "Inf Jump"
+infjump.TextColor3 = Color3.fromRGB(0, 0, 0)
+infjump.TextSize = 14.000
+
+UICorner_8.Parent = infjump
+
+Esp.Name = "Esp"
+Esp.Parent = Noclip
+Esp.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Esp.Position = UDim2.new(-0.0223571844, 0, 2.31516743, 0)
+Esp.Size = UDim2.new(0, 109, 0, 42)
+Esp.Font = Enum.Font.SourceSans
+Esp.Text = "Esp"
+Esp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Esp.TextSize = 14.000
+
+UICorner_9.Parent = Esp
+
+Cham.Name = "Cham"
+Cham.Parent = Noclip
+Cham.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Cham.Position = UDim2.new(0.427184224, 0, 3.4580245, 0)
+Cham.Size = UDim2.new(0, 62, 0, 42)
+Cham.Font = Enum.Font.SourceSans
+Cham.Text = "Cham"
+Cham.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cham.TextSize = 14.000
+
+UICorner_10.Parent = Cham
+
+tptored.Name = "tp to red"
+tptored.Parent = Noclip
+tptored.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+tptored.Position = UDim2.new(-2.119, 0,1.149, 0)
+tptored.Size = UDim2.new(0, 109, 0, 42)
+tptored.Font = Enum.Font.SourceSans
+tptored.Text = "tp to red"
+tptored.TextColor3 = Color3.fromRGB(0, 0, 0)
+tptored.TextSize = 14.000
+
+UICorner_11.Parent = tptored
+
+Edgebadge.Name = "Edge badge"
+Edgebadge.Parent = Noclip
+Edgebadge.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Edgebadge.Position = UDim2.new(-0.0040084417, 0, 4.67231035, 0)
+Edgebadge.Size = UDim2.new(0, 107, 0, 42)
+Edgebadge.Font = Enum.Font.SourceSans
+Edgebadge.Text = "Edge Badge"
+Edgebadge.TextColor3 = Color3.fromRGB(0, 0, 0)
+Edgebadge.TextSize = 14.000
+
+UICorner_12.Parent = Edgebadge
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.280303031, 0, 0.0581395403, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "*Press N*"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextWrapped = true
+
+TextButton.Name = "Text Button"
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TextButton.Position = UDim2.new(0.0623905659, 0, 0.594230175, 0)
+TextButton.Size = UDim2.new(0, 45, 0, 42)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Off"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_13.Parent = TextButton
+
+Frame_3.Parent = ScreenGui
+Frame_3.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame_3.Position = UDim2.new(0.31040293, 0, 0, 0)
+Frame_3.Size = UDim2.new(0, 132, 0, 258)
+
+UICorner_14.Parent = Frame_3
+
+Killall.Name = "Kill all"
+Killall.Parent = ScreenGui
+Killall.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Killall.Position = UDim2.new(0.316534787, 0, 0.00675105816, 0)
+Killall.Size = UDim2.new(0, 109, 0, 42)
+Killall.Font = Enum.Font.SourceSans
+Killall.Text = "Tp all head"
+Killall.TextColor3 = Color3.fromRGB(0, 0, 0)
+Killall.TextSize = 14.000
+
+UICorner_15.Parent = Killall
+
+Fly.Name = "Fly"
+Fly.Parent = ScreenGui
+Fly.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Fly.Position = UDim2.new(0.316534787, 0, 0.0472573861, 0)
+Fly.Size = UDim2.new(0, 109, 0, 42)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+
+UICorner_16.Parent = Fly
+
+TextLabel_3.Parent = ScreenGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.290677488, 0, 0.0548523217, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "*Press f"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Clicktotp.Name = "Click to tp"
+Clicktotp.Parent = ScreenGui
+Clicktotp.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Clicktotp.Position = UDim2.new(0.316534787, 0, 0.0886075944, 0)
+Clicktotp.Size = UDim2.new(0, 109, 0, 42)
+Clicktotp.Font = Enum.Font.SourceSans
+Clicktotp.Text = "Click to tp"
+Clicktotp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clicktotp.TextSize = 14.000
+
+UICorner_17.Parent = Clicktotp
+
+Norocketcoolddown.Name = "No rocket  coolddown"
+Norocketcoolddown.Parent = ScreenGui
+Norocketcoolddown.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Norocketcoolddown.Position = UDim2.new(0.316534787, 0, 0.12995781, 0)
+Norocketcoolddown.Size = UDim2.new(0, 109, 0, 42)
+Norocketcoolddown.Font = Enum.Font.SourceSans
+Norocketcoolddown.Text = "No CoolDown"
+Norocketcoolddown.TextColor3 = Color3.fromRGB(0, 0, 0)
+Norocketcoolddown.TextSize = 14.000
+
+UICorner_18.Parent = Norocketcoolddown
+
+Speedup.Name = "Speedup"
+Speedup.Parent = ScreenGui
+Speedup.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Speedup.Position = UDim2.new(0.316534787, 0, 0.172995776, 0)
+Speedup.Size = UDim2.new(0, 109, 0, 42)
+Speedup.Font = Enum.Font.SourceSans
+Speedup.Text = "Local SpeedUp"
+Speedup.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speedup.TextSize = 14.000
+
+UICorner_19.Parent = Speedup
+
+-- Scripts:
+
+local function VGEGEJE_fake_script() -- Tptomiddle.LocalScript 
+	local script = Instance.new('LocalScript', Tptomiddle)
+
+	getfenv().script = Instance.new('Script', Tptomiddle)
+	
+	local script = Instance.new('LocalScript', Tptomiddle)
+	
+	Tptomiddle.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,130,0)
+	end)
+	
+	
+end
+coroutine.wrap(VGEGEJE_fake_script)()
+local function YYDLVA_fake_script() -- tptogreen.LocalScript 
+	local script = Instance.new('LocalScript', tptogreen)
+
+	getfenv().script = Instance.new('Script', tptogreen)
+	
+	local script = Instance.new('LocalScript', tptogreen)
+	
+		tptogreen.MouseButton1Click:Connect(function()
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,30,-130)
+		end)
+		
+	
+end
+coroutine.wrap(YYDLVA_fake_script)()
+local function DMMDHW_fake_script() -- tptoblue.LocalScript 
+	local script = Instance.new('LocalScript', tptoblue)
+
+	getfenv().script = Instance.new('Script', tptoblue)
+	
+	local script = Instance.new('LocalScript', tptoblue)
+	
+	tptoblue.MouseButton1Click:Connect(function()
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,30,130)
+	end)
+	
+	
+end
+coroutine.wrap(DMMDHW_fake_script)()
+local function XOFMWPD_fake_script() -- TpToYellow.LocalScript 
+	local script = Instance.new('LocalScript', TpToYellow)
+
+	getfenv().script = Instance.new('Script', TpToYellow)
+	
+	local script = Instance.new('LocalScript', TpToYellow)
+	
+		TpToYellow.MouseButton1Click:Connect(function()
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(130,30,0)
+	end)
+	
+	
+end
+coroutine.wrap(XOFMWPD_fake_script)()
+local function NUQPE_fake_script() -- infjump.LocalScript 
+	local script = Instance.new('LocalScript', infjump)
+
+	getfenv().script = Instance.new('Script', infjump)
+	
+	local script = Instance.new('LocalScript', infjump)
+	
+	infjump.MouseButton1Click:Connect(function()
+		
+		loadstring(game:HttpGet("https://pastebin.com/raw/HQsQysa8", true))()
+	end)
+	
+	
+end
+coroutine.wrap(NUQPE_fake_script)()
+local function RPNTFW_fake_script() -- Esp.LocalScript 
+	local script = Instance.new('LocalScript', Esp)
+
+	getfenv().script = Instance.new('Script', Esp)
+	
+	local script = Instance.new('LocalScript', Esp)
+	
+	Esp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-esp/main/Roblox-esp", true))()
+	end)
+	
+	
+end
+coroutine.wrap(RPNTFW_fake_script)()
+local function SZPLSA_fake_script() -- tptored.LocalScript 
+	local script = Instance.new('LocalScript', tptored)
+
+	getfenv().script = Instance.new('Script', tptored)
+	
+	local script = Instance.new('LocalScript', tptored)
+	
+	tptored.MouseButton1Click:Connect(function()
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130,30,0)
+	end)
+	
+	
+end
+coroutine.wrap(SZPLSA_fake_script)()
+local function WDIKR_fake_script() -- Edgebadge.LocalScript 
+	local script = Instance.new('LocalScript', Edgebadge)
+
+	getfenv().script = Instance.new('Script', Edgebadge)
+	
+	local script = Instance.new('LocalScript', Edgebadge)
+	
+	Edgebadge.MouseButton1Down:connect(function()
+		
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,519,3071)
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,-460,3071)
+	end)
+	
+	
+end
+coroutine.wrap(WDIKR_fake_script)()
+local function HQBV_fake_script() -- Noclip.LocalScript 
+	local script = Instance.new('LocalScript', Noclip)
+
+	getfenv().script = Instance.new('Script', Noclip)
+	
+	local script = Instance.new('LocalScript', Noclip)
+	
+	Noclip.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/RobloxScripts52/noclip/main/noclip.lua"), true))()
+	
+	end)
+end
+coroutine.wrap(HQBV_fake_script)()
+local function JNAF_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local function QHDX_fake_script() -- TextButton.LocalScript 
+		local script = Instance.new('LocalScript', TextButton)
+	
+		_G.chams = false
+		local Players = game:GetService("Players") -- variable to get the players in the game
+	
+		script.Parent.MouseButton1Click:Connect(function()
+			if _G.chams == false then
+				_G.chams = true
+				script.Parent.Text = "On"
+				script.Parent.TextColor3 = Color3.fromRGB(0, 255, 0)
+				--- Chams
+				function CreateGui(name,parent,face) -- function that creates the Chams
+					local SurfaceGui = Instance.new("SurfaceGui",parent) --- Creates a SurfaceGui in the game
+					SurfaceGui.Parent = parent
+					SurfaceGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+					SurfaceGui.Face = Enum.NormalId[face]
+					SurfaceGui.LightInfluence = 0
+					SurfaceGui.ResetOnSpawn = false
+					SurfaceGui.Name = name
+					SurfaceGui.AlwaysOnTop = true
+					local Frame = Instance.new("Frame",SurfaceGui)
+					Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- colour for the surfacgui
+					Frame.Size = UDim2.new(1,0,1,0)
+				end
+	
+				while wait(1) do
+					for i,v in pairs (Players:GetPlayers()) do --- gets all the players in the game and loops through them
+						if v ~= Players.LocalPlayer and v.Character ~= nil and v.Character:FindFirstChild("Head") and _G.chams and v.Character.Head:FindFirstChild("cham") == nil then --- Checks to check if the player is appropiate to make a cham
+							for i,v in pairs (v.Character:GetChildren()) do -- looping through every child in the character of the player
+								if v:IsA("MeshPart") or v.Name == "Head" then -- checking if the child is a body part
+									CreateGui("cham",v,"Back")
+									CreateGui("cham",v,"Front")
+									CreateGui("cham",v,"Top")
+									CreateGui("cham",v,"Bottom")
+									CreateGui("cham",v,"Right")
+									CreateGui("cham",v,"Left")
+								end
+							end
+	
+						end
+					end
+				end
+			else 
+				_G.chams = false
+				script.Parent.Text = "Off"
+				script.Parent.TextColor3 = Color3.fromRGB(255, 0, 0)
+			end
+		end)
+	end
+	coroutine.wrap(QHDX_fake_script)()
+end
+coroutine.wrap(JNAF_fake_script)()
+local function RFGXXJ_fake_script() -- Killall.LocalScript 
+	local script = Instance.new('LocalScript', Killall)
+
+	getfenv().script = Instance.new('Script', Killall)
+	
+	local script = Instance.new('LocalScript', Killall)
+	
+	Killall.MouseButton1Click:Connect(function()
+	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/roblox-tp-all-head/main/roblox%20tp%20all%20head"))();
+	end)
+	
+	
+end
+coroutine.wrap(RFGXXJ_fake_script)()
+local function NVDXO_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	getfenv().script = Instance.new('Script', Fly)
+	
+	local script = Instance.new('LocalScript', Fly)
+	
+	Fly.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Fly-script/main/fly-script"))();
+	end)
+	
+	
+end
+coroutine.wrap(NVDXO_fake_script)()
+local function WHKCRS_fake_script() -- Clicktotp.LocalScript 
+	local script = Instance.new('LocalScript', Clicktotp)
+
+	getfenv().script = Instance.new('Script', Clicktotp)
+	
+	local script = Instance.new('LocalScript', Clicktotp)
+	
+	Clicktotp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-Click-to-tp/main/Click%20to%20tp", true))()
+	end)
+	
+	
+end
+coroutine.wrap(WHKCRS_fake_script)()
+local function UEDQ_fake_script() -- Norocketcoolddown.LocalScript 
+	local script = Instance.new('LocalScript', Norocketcoolddown)
+
+	getfenv().script = Instance.new('Script', Norocketcoolddown)
+	
+	local script = Instance.new('LocalScript', Norocketcoolddown)
+	
+	Norocketcoolddown.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://paste.ee/r/r826i/0", true))()
+	end)
+end
+coroutine.wrap(UEDQ_fake_script)()
+local function BEFDXOW_fake_script() -- Speedup.LocalScript 
+	local script = Instance.new('LocalScript', Speedup)
+
+	local script = Instance.new('LocalScript', Speedup)
+	
+	getfenv().script = Instance.new('Script', Speedup)
+	
+	local script = Instance.new('LocalScript', Speedup)
+	
+	Speedup.MouseButton1Click:Connect(function()
+	
+		local UIS = game:GetService("UserInputService")
+	
+		local Char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local Humanoid = Char:WaitForChild("Humanoid")
+	
+		UIS.InputBegan:Connect(function(input)
+	
+			if input.KeyCode == Enum.KeyCode.LeftControl then
+				Humanoid.WalkSpeed = 50
+			end
+	
+		end)
+	
+		UIS.InputEnded:Connect(function(input)
+	
+			if input.KeyCode == Enum.KeyCode.LeftControl then
+				Humanoid.WalkSpeed = 16
+			end
+	
+		end)
+	end)
+	
+	
+	
+end
+coroutine.wrap(BEFDXOW_fake_script)()
