@@ -48,7 +48,19 @@ local UICorner_21 = Instance.new("UICorner")
 local RoliHub = Instance.new("TextLabel")
 local UICorner_22 = Instance.new("UICorner")
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+RoliHub.Name = "RoliHub"
+RoliHub.Parent = ScreenGui
+RoliHub.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+RoliHub.Position = UDim2.new(0.429067761, 0, 0.452320665, 0)
+RoliHub.Size = UDim2.new(0, 244, 0, 112)
+RoliHub.Font = Enum.Font.SourceSans
+RoliHub.Text = "RoliHub"
+RoliHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+RoliHub.TextSize = 80.000
+
+UICorner_22.Parent = RoliHub
+
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame1.Name = "Frame 1"
