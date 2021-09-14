@@ -20,7 +20,7 @@ local ChamBig = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local tptored = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local Edgebadge = Instance.new("TextButton")
+local NameEsp = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
@@ -45,20 +45,14 @@ local UICorner_20 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local Killall = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local RoliHub = Instance.new("TextLabel")
+local Edgebadge = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
+local Frame4 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local Feinvis = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
 
-RoliHub.Name = "RoliHub"
-RoliHub.Parent = ScreenGui
-RoliHub.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-RoliHub.Position = UDim2.new(0.429067761, 0, 0.452320665, 0)
-RoliHub.Size = UDim2.new(0, 244, 0, 112)
-RoliHub.Font = Enum.Font.SourceSans
-RoliHub.Text = "RoliHub"
-RoliHub.TextColor3 = Color3.fromRGB(0, 0, 0)
-RoliHub.TextSize = 80.000
-
-UICorner_22.Parent = RoliHub
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -185,17 +179,17 @@ tptored.TextSize = 14.000
 
 UICorner_10.Parent = tptored
 
-Edgebadge.Name = "Edge badge"
-Edgebadge.Parent = Noclip
-Edgebadge.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-Edgebadge.Position = UDim2.new(-0.0040084417, 0, 4.67231035, 0)
-Edgebadge.Size = UDim2.new(0, 107, 0, 42)
-Edgebadge.Font = Enum.Font.SourceSans
-Edgebadge.Text = "Edge Badge"
-Edgebadge.TextColor3 = Color3.fromRGB(0, 0, 0)
-Edgebadge.TextSize = 14.000
+NameEsp.Name = "Name Esp"
+NameEsp.Parent = Noclip
+NameEsp.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+NameEsp.Position = UDim2.new(-0.00400844216, 0, 4.67230988, 0)
+NameEsp.Size = UDim2.new(0, 107, 0, 42)
+NameEsp.Font = Enum.Font.SourceSans
+NameEsp.Text = "Name Esp"
+NameEsp.TextColor3 = Color3.fromRGB(0, 0, 0)
+NameEsp.TextSize = 14.000
 
-UICorner_11.Parent = Edgebadge
+UICorner_11.Parent = NameEsp
 
 TextLabel_2.Parent = Frame2
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -341,21 +335,41 @@ Killall.TextSize = 14.000
 
 UICorner_21.Parent = Killall
 
-RoliHub.Name = "RoliHub"
-RoliHub.Parent = ScreenGui
-RoliHub.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-RoliHub.Position = UDim2.new(0.429067761, 0, 0.452320665, 0)
-RoliHub.Size = UDim2.new(0, 244, 0, 112)
-RoliHub.Font = Enum.Font.SourceSans
-RoliHub.Text = "RoliHub"
-RoliHub.TextColor3 = Color3.fromRGB(0, 0, 0)
-RoliHub.TextSize = 80.000
+Edgebadge.Name = "Edge badge"
+Edgebadge.Parent = ScreenGui
+Edgebadge.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Edgebadge.Position = UDim2.new(0.446239471, 0, 0.0472573824, 0)
+Edgebadge.Size = UDim2.new(0, 109, 0, 42)
+Edgebadge.Font = Enum.Font.SourceSans
+Edgebadge.Text = "EdgeBadge"
+Edgebadge.TextColor3 = Color3.fromRGB(0, 0, 0)
+Edgebadge.TextSize = 14.000
 
-UICorner_22.Parent = RoliHub
+UICorner_22.Parent = Edgebadge
+
+Frame4.Name = "Frame 4"
+Frame4.Parent = ScreenGui
+Frame4.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame4.Position = UDim2.new(0.440107644, 0, 0, 0)
+Frame4.Size = UDim2.new(0, 132, 0, 106)
+
+UICorner_23.Parent = Frame4
+
+Feinvis.Name = "Fe invis"
+Feinvis.Parent = ScreenGui
+Feinvis.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Feinvis.Position = UDim2.new(0.446239471, 0, 0.00759493466, 0)
+Feinvis.Size = UDim2.new(0, 109, 0, 42)
+Feinvis.Font = Enum.Font.SourceSans
+Feinvis.Text = "Fe invis"
+Feinvis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Feinvis.TextSize = 14.000
+
+UICorner_24.Parent = Feinvis
 
 -- Scripts:
 
-local function AYSU_fake_script() -- Tptomiddle.LocalScript 
+local function HYKMY_fake_script() -- Tptomiddle.LocalScript 
 	local script = Instance.new('LocalScript', Tptomiddle)
 
 	getfenv().script = Instance.new('Script', Tptomiddle)
@@ -369,8 +383,8 @@ local function AYSU_fake_script() -- Tptomiddle.LocalScript
 	
 	
 end
-coroutine.wrap(AYSU_fake_script)()
-local function YTRIRYI_fake_script() -- tptogreen.LocalScript 
+coroutine.wrap(HYKMY_fake_script)()
+local function DAPE_fake_script() -- tptogreen.LocalScript 
 	local script = Instance.new('LocalScript', tptogreen)
 
 	getfenv().script = Instance.new('Script', tptogreen)
@@ -384,8 +398,8 @@ local function YTRIRYI_fake_script() -- tptogreen.LocalScript
 		
 	
 end
-coroutine.wrap(YTRIRYI_fake_script)()
-local function MRVVSB_fake_script() -- tptoblue.LocalScript 
+coroutine.wrap(DAPE_fake_script)()
+local function HWSMRI_fake_script() -- tptoblue.LocalScript 
 	local script = Instance.new('LocalScript', tptoblue)
 
 	getfenv().script = Instance.new('Script', tptoblue)
@@ -399,8 +413,8 @@ local function MRVVSB_fake_script() -- tptoblue.LocalScript
 	
 	
 end
-coroutine.wrap(MRVVSB_fake_script)()
-local function HTWWPC_fake_script() -- infjump.LocalScript 
+coroutine.wrap(HWSMRI_fake_script)()
+local function SITMSP_fake_script() -- infjump.LocalScript 
 	local script = Instance.new('LocalScript', infjump)
 
 	getfenv().script = Instance.new('Script', infjump)
@@ -414,23 +428,23 @@ local function HTWWPC_fake_script() -- infjump.LocalScript
 	
 	
 end
-coroutine.wrap(HTWWPC_fake_script)()
-local function VRAFGC_fake_script() -- Esp.LocalScript 
+coroutine.wrap(SITMSP_fake_script)()
+local function ANGCA_fake_script() -- Esp.LocalScript 
 	local script = Instance.new('LocalScript', Esp)
 
-	getfenv().script = Instance.new('Script', infjump)
+	getfenv().script = Instance.new('Script', Esp)
 	
-	local script = Instance.new('LocalScript', infjump)
+	local script = Instance.new('LocalScript', Esp)
 	
-	infjump.MouseButton1Click:Connect(function()
+	Esp.MouseButton1Click:Connect(function()
 	
-		loadstring(game:HttpGet("https://github.com/Rollimonster/Roblox-esp", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-esp/main/Roblox-esp", true))()
 	end)
 	
 	
 end
-coroutine.wrap(VRAFGC_fake_script)()
-local function IQVQ_fake_script() -- tptored.LocalScript 
+coroutine.wrap(ANGCA_fake_script)()
+local function KHASEKK_fake_script() -- tptored.LocalScript 
 	local script = Instance.new('LocalScript', tptored)
 
 	getfenv().script = Instance.new('Script', tptored)
@@ -444,25 +458,8 @@ local function IQVQ_fake_script() -- tptored.LocalScript
 	
 	
 end
-coroutine.wrap(IQVQ_fake_script)()
-local function AIFBKP_fake_script() -- Edgebadge.LocalScript 
-	local script = Instance.new('LocalScript', Edgebadge)
-
-	getfenv().script = Instance.new('Script', Edgebadge)
-	
-	local script = Instance.new('LocalScript', Edgebadge)
-	
-	Edgebadge.MouseButton1Down:connect(function()
-		
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,519,3071)
-		wait(0.1)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,-460,3071)
-	end)
-	
-	
-end
-coroutine.wrap(AIFBKP_fake_script)()
-local function BNANJFO_fake_script() -- Noclip.LocalScript 
+coroutine.wrap(KHASEKK_fake_script)()
+local function ZHCABOH_fake_script() -- Noclip.LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	getfenv().script = Instance.new('Script', Noclip)
@@ -475,8 +472,55 @@ local function BNANJFO_fake_script() -- Noclip.LocalScript
 	
 	end)
 end
-coroutine.wrap(BNANJFO_fake_script)()
-local function FFTFK_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ZHCABOH_fake_script)()
+local function FNQE_fake_script() -- NameEsp.LocalScript 
+	local script = Instance.new('LocalScript', NameEsp)
+
+	getfenv().script = Instance.new('Script', NameEsp)
+	
+	local script = Instance.new('LocalScript', NameEsp)
+	
+	NameEsp.MouseButton1Down:connect(function()
+		
+		local esp_settings = {
+			textsize = 20,
+			color = 0, 85, 255
+		}
+	
+		local gui = Instance.new("BillboardGui")
+		local esp = Instance.new("TextLabel",gui)
+	
+	
+	
+		gui.Name = "Cracked esp";
+		gui.ResetOnSpawn = false
+		gui.AlwaysOnTop = true;
+		gui.LightInfluence = 0;
+		gui.Size = UDim2.new(1.75, 0, 1.75, 0);
+		esp.BackgroundColor3 = Color3.fromRGB(0, 85, 255);
+		esp.Text = ""
+		esp.Size = UDim2.new(0.0001, 0.00001, 0.0001, 0.00001);
+		esp.BorderSizePixel = 4;
+		esp.BorderColor3 = Color3.new(esp_settings.colour)
+		esp.BorderSizePixel = 0
+		esp.Font = "GothamSemibold"
+		esp.TextSize = esp_settings.textsize
+		esp.TextColor3 = Color3.fromRGB(esp_settings.colour)
+	
+		game:GetService("RunService").RenderStepped:Connect(function()
+			for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+				if v ~= game:GetService("Players").LocalPlayer and v.Character.Head:FindFirstChild("Cracked esp")==nil  then -- craeting checks for team check, local player etc
+					esp.Text = "{"..v.Name.."}"
+					gui:Clone().Parent = v.Character.Head
+				end
+			end
+		end)
+	end)
+	
+	
+end
+coroutine.wrap(FNQE_fake_script)()
+local function PYBWHJ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local function QHDX_fake_script() -- TextButton.LocalScript 
@@ -531,8 +575,8 @@ local function FFTFK_fake_script() -- TextButton.LocalScript
 	end
 	coroutine.wrap(QHDX_fake_script)()
 end
-coroutine.wrap(FFTFK_fake_script)()
-local function HIESACX_fake_script() -- Norocketcoolddown.LocalScript 
+coroutine.wrap(PYBWHJ_fake_script)()
+local function YBDCXX_fake_script() -- Norocketcoolddown.LocalScript 
 	local script = Instance.new('LocalScript', Norocketcoolddown)
 
 	getfenv().script = Instance.new('Script', Norocketcoolddown)
@@ -544,8 +588,8 @@ local function HIESACX_fake_script() -- Norocketcoolddown.LocalScript
 		loadstring(game:HttpGet("https://paste.ee/r/r826i/0", true))()
 	end)
 end
-coroutine.wrap(HIESACX_fake_script)()
-local function VSRXVNO_fake_script() -- Heal.LocalScript 
+coroutine.wrap(YBDCXX_fake_script)()
+local function ZUFY_fake_script() -- Heal.LocalScript 
 	local script = Instance.new('LocalScript', Heal)
 
 	getfenv().script = Instance.new('Script', Heal)
@@ -559,8 +603,8 @@ local function VSRXVNO_fake_script() -- Heal.LocalScript
 	
 	
 end
-coroutine.wrap(VSRXVNO_fake_script)()
-local function REUAPZ_fake_script() -- TpToYellow.LocalScript 
+coroutine.wrap(ZUFY_fake_script)()
+local function DZCDD_fake_script() -- TpToYellow.LocalScript 
 	local script = Instance.new('LocalScript', TpToYellow)
 
 	getfenv().script = Instance.new('Script', TpToYellow)
@@ -574,8 +618,8 @@ local function REUAPZ_fake_script() -- TpToYellow.LocalScript
 	
 	
 end
-coroutine.wrap(REUAPZ_fake_script)()
-local function GTRTJZ_fake_script() -- Clicktp.LocalScript 
+coroutine.wrap(DZCDD_fake_script)()
+local function EKRELMA_fake_script() -- Clicktp.LocalScript 
 	local script = Instance.new('LocalScript', Clicktp)
 
 	getfenv().script = Instance.new('Script', Clicktp)
@@ -589,8 +633,8 @@ local function GTRTJZ_fake_script() -- Clicktp.LocalScript
 	
 	
 end
-coroutine.wrap(GTRTJZ_fake_script)()
-local function OKRCEUY_fake_script() -- Speedup.Local Script 
+coroutine.wrap(EKRELMA_fake_script)()
+local function HLUCDNG_fake_script() -- Speedup.Local Script 
 	local script = Instance.new('LocalScript', Speedup)
 
 	getfenv().script = Instance.new('Script', Speedup)
@@ -623,8 +667,8 @@ local function OKRCEUY_fake_script() -- Speedup.Local Script
 	
 	
 end
-coroutine.wrap(OKRCEUY_fake_script)()
-local function GGAPY_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(HLUCDNG_fake_script)()
+local function KHKE_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	getfenv().script = Instance.new('Script', Aimbot)
@@ -722,8 +766,8 @@ local function GGAPY_fake_script() -- Aimbot.LocalScript
 	
 	
 end
-coroutine.wrap(GGAPY_fake_script)()
-local function FOGMJ_fake_script() -- Fly.LocalScript 
+coroutine.wrap(KHKE_fake_script)()
+local function RKHY_fake_script() -- Fly.LocalScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	getfenv().script = Instance.new('Script', Fly)
@@ -737,8 +781,8 @@ local function FOGMJ_fake_script() -- Fly.LocalScript
 	
 	
 end
-coroutine.wrap(FOGMJ_fake_script)()
-local function YGQRK_fake_script() -- Killall.LocalScript 
+coroutine.wrap(RKHY_fake_script)()
+local function TMABIY_fake_script() -- Killall.LocalScript 
 	local script = Instance.new('LocalScript', Killall)
 
 	getfenv().script = Instance.new('Script', Killall)
@@ -746,17 +790,41 @@ local function YGQRK_fake_script() -- Killall.LocalScript
 	local script = Instance.new('LocalScript', Killall)
 	Killall.MouseButton1Click:Connect(function()
 	
-		loadstring(game:HttpGet("https://github.com/Rollimonster/roblox-tp-all-head", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/roblox-tp-all-head/main/roblox%20tp%20all%20head", true))()
 	end)
 	
 	
 end
-coroutine.wrap(YGQRK_fake_script)()
-local function FMWMO_fake_script() -- RoliHub.Script 
-	local script = Instance.new('Script', RoliHub)
+coroutine.wrap(TMABIY_fake_script)()
+local function LNIBPGC_fake_script() -- Edgebadge.LocalScript 
+	local script = Instance.new('LocalScript', Edgebadge)
 
-	script.Parent.Visible = true
-	wait (3)
-	script.Parent.Visible = false
+	getfenv().script = Instance.new('Script', Edgebadge)
+	
+	local script = Instance.new('LocalScript', Edgebadge)
+	
+	Edgebadge.MouseButton1Down:connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,519,3071)
+		wait(0.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,-460,3071)
+	end)
+	
+	
 end
-coroutine.wrap(FMWMO_fake_script)()
+coroutine.wrap(LNIBPGC_fake_script)()
+local function SWUGJ_fake_script() -- Feinvis.LocalScript 
+	local script = Instance.new('LocalScript', Feinvis)
+
+	getfenv().script = Instance.new('Script', Feinvis)
+	
+	local script = Instance.new('LocalScript', Feinvis)
+	
+	Feinvis.MouseButton1Click:Connect(function()
+	
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/fe-invis/main/fe-invis", true))()
+		end)
+	
+	
+end
+coroutine.wrap(SWUGJ_fake_script)()
